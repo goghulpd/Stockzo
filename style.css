@@ -1,0 +1,376 @@
+body{
+    background-color: white;
+    padding-left: 10px;
+}
+#navbar{
+    overflow: hidden;
+    background-color: rgb(173, 178, 187);
+}
+.content{
+    padding: 16px;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+h1{
+    color:black;
+    padding-left: 20px;
+}
+ul li{
+    list-style-type: none;
+    padding: 10px;
+    cursor: pointer;
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+ul li a:hover{
+    color:lightslategray ;
+    text-decoration: underline;
+}
+.img{
+    height: 20px;
+    width: 20px;
+}
+b{
+    font-size: 30px;
+}
+button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size:20px;
+    padding: 5px;
+}
+#block1 img{
+    height: 400px;
+    width: 500px;
+
+}
+#block2 img{
+    height: 400px;
+    width: 600px;
+}
+#d1{
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 0px 7px 7px 0px;
+    padding: 55px 5px 55px 5px;
+}
+#d2{
+    border: 2px solid lightgray;
+    background-color: lightgrey;
+    border-radius: 0px 7px 7px 0px;
+    padding: 55px 5px 55px 5px;
+}
+#d1,#d2{
+    height: 350px;
+    width: 330px;
+}
+#d1 img{
+    height: 80px;
+    width: 70px;
+}
+#d1 p{
+    color: white;
+}
+#d1 button{
+    background-color: white;
+    color: black;
+}
+#d2 img{
+    height: 80px;
+    width: 70px;
+}
+#block5 b{
+    display: flex;
+    justify-content: center;
+}
+#block6 img{
+    height: 600px;
+    width: 500px;
+}
+#block6{
+    background-color: black;
+    color: white;
+}
+h5{
+    font-size: 30px;
+}
+#block6 button{
+    background-color: white;
+    color: black;
+    padding: 5px 25px 5px 25px;
+}
+#block6 label{
+    color: grey;
+}
+#block6 input{
+    border: none;
+    border-bottom:2px solid grey ;
+    background-color: black;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+#block7 b{
+    display: flex;
+    justify-content: center;
+}
+#block8 div{
+    height: 400px;
+    width: 500px;
+}
+#b8{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius:0px 7px 7px 0px;
+    padding: 5px;
+}
+#b9{
+    border: 2px solid grey;
+    background-color: grey;
+    color: black;
+    border-radius: 0px 7px 7px 0px;
+    padding: 5px;
+}
+#b8 button{
+    background-color: white;
+    color: black;
+    padding: 5px 15px 5px 15px;
+}
+#b9 button{
+    padding: 5px 15px 5px 15px;
+}
+#block9 div{
+    height: 330px;
+    width: 400px;
+    padding: 10px;
+}
+h6{
+    font-size: 30px;
+}
+#b10{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 0px 7px 7px 0px;
+}
+#b11{
+    background-color: gray;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 0px 7px 7px 0px;
+}
+#b10 button{
+    background-color: white;
+    color: black;
+}
+#b11 button{
+    background-color: black;
+    color: white;
+}
+#block10 b{
+    display: flex;
+    justify-content: center;
+}
+#b12{
+    background-color: gray;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 0px 7px 7px 0px;
+}
+#block11 div{
+    height: 330px;
+    width: 400px;
+    padding: 10px;
+}
+#block12 button img{
+    height: 15px;
+    width: 30px;
+    color: white;
+}
+#block12{
+    display: flex;
+    justify-content: center;
+}
+#block12 button{
+    padding: 5px 15px 5px 15px;
+}
+#block13 img{
+    height: 400px;
+    width: 300px;
+}
+#block13 div{
+    background-color: black;
+    color: white;
+    height:430px;
+    width: 500px;
+    padding: 7px;
+}
+#block13 input{
+    border: gray;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    border: 2px solid gray;
+    color: grey;
+}
+#block13 div button{
+    background-color: white;
+    color: black;
+}
+h5{
+    font-size: 20px;
+}
+#block14 div{
+    height: 400px;
+    width: 300px;
+}
+#block14 div li{
+    list-style: none;
+}
+#block14 div input{
+    width: 140px;
+    height: 30px;
+}
+#block14 div label{
+    border: 2px solid black;
+    padding: 4px;
+    color: white;
+    background-color: black;
+}
+#lo{
+    height: 50px;
+    width: 100px;
+}
+#block14 div{
+    line-height: 30px;
+}
+
+/* media query*/
+@media only screen and (max-width:600px){
+    body{
+        width: 100%;
+    }
+    #block1,#block2,#block3,#block4,#block5,#block6,#block7,#block8,#block9,#block10,#block11,#block12,#block13,#block14{
+        width: 100%;
+    }
+    #block1 img{
+        width: 150px;
+        height: 200px;
+    }
+    #block2 img{
+        width: 150px;
+        height: 200px;
+    }
+    #block2 div button{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+    #d1 div button{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+    #d2 div button{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+    #d1,#d2{
+        width: 100%;
+    }
+    b{
+        font-size: 20px;
+    }
+    .flex-container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+    #block4 div img{
+        height: 130px;
+        width: 130px;
+    }
+    #block6 img{
+        height: 530px;
+        width: 300px;
+    }
+    #b8,#b9{
+        font-size: 15px;
+    }
+    #b8 div button{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+    #b9 div button{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+    #b10{
+        font-size: 15px;
+    }
+    #b11{
+        font-size: 15px;
+    }
+    #b12{
+        font-size: 15px;
+    }
+    h6{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    #block13 div{
+        font-size: 15px;
+    }
+    #block13 div button{
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+    #block14 div{
+        font-size: 12px;
+    }
+    #block14 div input{
+        width:80px;
+        height: 25px;
+    }
+    #lo{
+        height: 50px;
+        width: 100px;
+    }
+    h1{
+        font-size: 20px;
+        padding: 0px;
+    }
+    ul li a{
+        font-size: 15px;
+    }
+    ul li{
+        padding: 5px;
+    }
+    body{
+        padding-left: 0px;
+    }
+    
+}
